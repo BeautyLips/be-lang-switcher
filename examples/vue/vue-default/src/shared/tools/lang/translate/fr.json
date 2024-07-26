@@ -1,0 +1,6 @@
+{
+  "message": {
+    "hello": "Bonjour"
+  },
+  "apple": "pas de pommes | {n} pomme | {n} pommes"
+}

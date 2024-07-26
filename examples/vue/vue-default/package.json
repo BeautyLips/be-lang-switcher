@@ -1,0 +1,43 @@
+{
+  "name": "vue-default-example-lang-switcher",
+  "description": "Vue Default Example LangSwitcher",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "run-p ts:check \"build:only {@}\" --",
+    "build:only": "vite build",
+    "build:lint": "npm run lint && vite build",
+    "preview": "vite preview",
+    "ts:check": "vue-tsc --build --force"
+  },
+  "dependencies": {
+    "vue": "^3.4.27",
+    "vue-router": "^4.3.2",
+    "vue-i18n": "^9.13.1",
+    "js-cookie": "^3.0.5"
+  },
+  "devDependencies": {
+    "@tsconfig/node20": "^20.1.4",
+    "@types/js-cookie": "^3.0.6",
+    "@types/jsdom": "^21.1.6",
+    "@vitejs/plugin-vue": "^5.0.4",
+    "@vitejs/plugin-vue-jsx": "^3.1.0",
+    "@vue/tsconfig": "^0.5.1",
+    "@vue/typescript": "^1.8.20",
+    "npm-run-all2": "^6.2.0",
+    "typescript": "~5.4.5",
+    "vite": "^5.2.11",
+    "vite-plugin-vue-devtools": "^7.2.1",
+    "vue-tsc": "^2.0.19"
+  },
+  "volta": {
+    "node": "20.13.1",
+    "npm": "10.5.2"
+  },
+  "engines": {
+    "node": ">= 20",
+    "npm": ">= 10"
+  }
+}
