@@ -1,6 +1,6 @@
 {
   "name": "@beautylips/be-lang-switcher",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Framework independent language switcher for any i18n plugins",
   "keywords": [
     "library",
