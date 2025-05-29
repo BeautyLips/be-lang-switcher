@@ -35,7 +35,7 @@
     "dev": "npx lerna watch -- lerna run build --since",
     "build": "npx lerna run build",
     "test": "npx lerna run test",
-    "semver": "npx lerna version --no-private",
+    "semver": "npx lerna version --no-private --force-publish",
     "publish": "npx lerna publish from-package --no-private",
     "lint": "npm run lint:eslint && npm run lint:prettier",
     "lint:eslint": "eslint .",

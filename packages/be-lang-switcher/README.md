@@ -1,5 +1,5 @@
 <p align="center">
-<img src="/art/beautylips-logo.svg" height="150">
+<img src="https://github.com/BeautyLips/be-lang-switcher/raw/main/art/beautylips-logo.svg" height="150">
 </p>
 
 <p align="center">
