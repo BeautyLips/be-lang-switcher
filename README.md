@@ -1,10 +1,21 @@
-# be-lang-switcher
+<p align="center">
+<img src="/art/beautylips-logo.svg" height="150">
+</p>
 
-![lips](https://github.com/BeautyLips/be-boilerplate-stack/assets/172837583/406701b3-4c42-4bc1-be9e-9f8e588ac175)
+<p align="center">
+<a href="https://gurovdmitriy.github.io/vue-fuji/">
+</a>
+</p>
 
-## Beautiful lang switcher
+<h1 align="center">
+be-lang-switcher
+</h1>
+<p align="center">
+Framework independent language switcher
+<p>
 
-Framework independent language switcher for any i18n plugins.
+<br>
+<br>
 
 ## Install
 
@@ -14,9 +25,8 @@ npm install @beautylips/be-lang-switcher
 
 ## Description
 
-The program serves as a language switcher,
-manages the language detection in the browser, reading and storing it in the storage,
-it does not provide functions for working with translations - your plugin should do this.
+The lib serves as a language switcher,
+manages the language detection in the browser, reading and storing it in the storage.
 
 ## Examples
 
@@ -286,3 +296,12 @@ const options = {
   // other options...
 }
 ```
+
+<br>
+<br>
+
+## License
+
+[MIT](./LICENSE) License © 2024-Present [Dmitriy Gurov](https://github.com/GurovDmitriy)
+<br>
+Logo by [Prisyachev](https://t.me/prisyachev)
